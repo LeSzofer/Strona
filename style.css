@@ -10,19 +10,24 @@ body {
 .logo {
     float: left;
     padding-right: 15px;
+    padding-left: 150px;
 }
-
-header {
-    background-color: #f8f9fa;
-    padding: 20px;
-    text-align: center;
+header{
+    height: auto;
+    min-height: 5rem;
+    padding-top: 20px;
+}
+header .logo{
+    padding-right: 30px;
 }
 
 nav {
-    background-color: #343a40;
-    color: white;
+    background-color: white;
+    color: gray;
     text-align: right;
     font-family: 'Nunito Sans';
+    padding-right: 150px;
+    margin: auto;
 }
 
 nav ul {
@@ -37,17 +42,19 @@ nav ul li {
 }
 
 nav ul li a {
-    color: white;
+    color: gray;
     text-decoration: none;
+    margin-right: 40px;
 }
 
-main {
+.midd {
     flex: 0 1 30%; /* 30% wysokości okna przeglądarki */
-    background-color: #e9ecef;
+    background-color: lightgray;
     padding: 20px;
+    text-align: center;
 }
 
-.end-section {
+.end {
     flex: 0 1 60%; /* 60% wysokości okna przeglądarki */
     background-color: #f8f9fa;
     padding: 20px;

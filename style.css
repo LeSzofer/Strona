@@ -1,11 +1,12 @@
 /* Globalne style */
-body {
-    font-family: Arial, sans-serif;
+*{
     margin: 0;
-    height: 100vh;
-    display: flex;
-    flex-direction: column;
+    padding: 0;
 }
+    body {
+        font-family: 'Montserrat', sans-serif;
+        line-height: 24px;
+    }
 
 .logo {
     float: left;
@@ -42,22 +43,51 @@ nav ul li {
 }
 
 nav ul li a {
-    color: gray;
+    color: black;
     text-decoration: none;
     margin-right: 40px;
+    font-weight: bold;
+    
 }
 
+nav ul li a:hover {
+    color: #49bbfc;
+    text-decoration: none;
+    margin-right: 40px;
+    font-weight: bold;
+}
 .midd {
-    flex: 0 1 30%; /* 30% wysokości okna przeglądarki */
+    flex: 0 2 50%; /* 30% wysokości okna przeglądarki */
     background-color: lightgray;
     padding: 20px;
     text-align: center;
+    min-height: 15rem;
+}
+.midd h2{
+    text-align: center;
+    font-family: 'Nunito Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-stretch: 100%;
+  font-display: swap;
+  font-size: 52px;
+  font-weight: bold;
+  margin: auto;
+  padding: 20px;
+}
+.midd p{
+    font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  font-size: 24px;
+  margin: auto;
+  padding: 10px;
 }
 
 .end {
     flex: 0 1 60%; /* 60% wysokości okna przeglądarki */
     background-color: #f8f9fa;
-    padding: 20px;
 }
 
 footer {
@@ -65,4 +95,73 @@ footer {
     color: white;
     text-align: center;
     padding: 10px;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+th, td {
+    border: 1px solid black;
+    padding: 10px;
+    text-align: center;
+    min-height: 270px;
+}
+img {
+    max-width: 100%;
+    height: auto;
+    min-height: 270px;
+}
+footer {
+    text-align: center;
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 15px;
+    width: 100%;
+    background: #0C0C0C;
+    padding: 100px 0;
+    color: #ffffff;
+    
+}
+
+footer a{
+    color: #ffffff;
+}
+
+footer .container{
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+}
+
+.footerMainMenu {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.license{
+    margin-right: 245px;
+
+}
+
+.license h2{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    margin-bottom: 27px;
+}
+
+.contacts {
+    margin-right: 145px;
+}
+
+.footerInfo {
+    margin-right: 55px;
+}
+
+.footerMenu {
+    margin-right: 135px;
+}
+@media screen and (max-width: 1190px) {
+    footer {
+        width: calc(100% - 16px);
+        padding: 100px 8px;
+    }
 }

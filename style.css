@@ -20,32 +20,42 @@ menu {
 }
 
 .container {
-    max-width: 100%;
-    margin: 0 auto;
+    display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+  align-items: center;
 }
 
 /*header*/
 header {
     width: 100%;
-    display: flex;
-    padding: 38px 0 0 0;
+    
+    
 }
 
 header .container {
     padding: 0 8px;
 }
+.logo1{
+    margin-left: 15rem;
+    padding: 38px 0 20px 0;
 
+    float: left;
+}
 .logo {
     width: 31px;
     height: 25px;
-    float: left;
-}
 
+
+}
 header menu {
+    width: 300px;
     float: right;
     display: flex;
     flex-wrap: wrap;
-    margin-left: 10%;
+    margin-left: 100%;
+    padding: 38px 0 20px 0;
+
 }
 
 header menu li {
@@ -64,37 +74,32 @@ header menu li:last-child {
     margin-right: 0;
 }
 
-
-.midd {
-    flex: 0 2 50%;
-    /* 30% wysokości okna przeglądarki */
-    background-color: lightgray;
-    padding: 20px;
-    text-align: center;
-    min-height: 15rem;
+.Intro{
+    background-color: #e8e8e8;
+    display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 250px;
+}
+.about{
+    padding: 0 8px;
 }
 
-.midd h2 {
+.about h2{
+    font-size: 38px;
+    line-height: 36px;
     text-align: center;
-    font-family: 'Nunito Sans';
-    font-style: normal;
-    font-weight: 400;
-    font-stretch: 100%;
-    font-display: swap;
-    font-size: 52px;
-    font-weight: bold;
-    margin: auto;
-    padding: 20px;
 }
 
-.midd p {
-    font-family: 'Montserrat';
-    font-style: normal;
-    font-weight: 400;
-    font-display: swap;
-    font-size: 24px;
-    margin: auto;
-    padding: 10px;
+.about p {
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 18px;
+    font-family: 'Nunito Sans', sans-serif;
+    color: #797979;
+    margin: 39px 0;
+    margin-bottom: 62px;
 }
 
 .images ul {
@@ -109,7 +114,7 @@ header menu li:last-child {
     position: relative;
     text-align:center;
     width: 25%;
-    height: 25%px;
+
 
     background: #202020;
 }
@@ -143,25 +148,26 @@ header menu li:last-child {
     opacity: 0.75;
 }
 
+.containerf {
+    display: flex;
+    justify-content: center;
+}
 footer {
-    text-align: center;
     font-family: 'Nunito Sans', sans-serif;
     font-size: 15px;
     width: 100%;
     background: #0C0C0C;
     padding: 100px 0;
     color: #ffffff;
-
 }
 
-footer a {
+footer a{
     color: #ffffff;
 }
 
-footer .container {
+footer .container{
     display: flex;
     flex-wrap: wrap;
-    align-content: center;
 }
 
 .footerMainMenu {
@@ -169,12 +175,11 @@ footer .container {
     flex-wrap: wrap;
 }
 
-.license {
+.license{
     margin-right: 245px;
-
 }
 
-.license h2 {
+.license h2{
     font-family: 'Montserrat', sans-serif;
     font-size: 18px;
     margin-bottom: 27px;
@@ -190,21 +195,4 @@ footer .container {
 
 .footerMenu {
     margin-right: 135px;
-}
-
-@media screen and (max-width: 1190px) {
-    .logo {
-        display: block;
-        margin-bottom: 20px;
-    }
-
-    header menu {
-        float: left;
-        margin-left: 0;
-    }
-
-    footer {
-        width: calc(100% - 16px);
-        padding: 100px 8px;
-    }
 }

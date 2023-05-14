@@ -1,0 +1,61 @@
+/* Globalne style */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.logo {
+    float: left;
+    padding-right: 15px;
+}
+
+header {
+    background-color: #f8f9fa;
+    padding: 20px;
+    text-align: center;
+}
+
+nav {
+    background-color: #343a40;
+    color: white;
+    text-align: right;
+    font-family: 'Nunito Sans';
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    overflow: hidden;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+main {
+    flex: 0 1 30%; /* 30% wysokości okna przeglądarki */
+    background-color: #e9ecef;
+    padding: 20px;
+}
+
+.end-section {
+    flex: 0 1 60%; /* 60% wysokości okna przeglądarki */
+    background-color: #f8f9fa;
+    padding: 20px;
+}
+
+footer {
+    background-color: #343a40;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}

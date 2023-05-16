@@ -73,7 +73,9 @@ color: aqua;
 header menu li:last-child {
     margin-right: 0;
 }
+/*header*/
 
+/*Index*/
 .Intro{
     background-color: #e8e8e8;
     display: flex;
@@ -147,7 +149,178 @@ header menu li:last-child {
 .images li:hover div{
     opacity: 0.75;
 }
+/*index*/
 
+
+/*About*/
+.representation {
+    height: 350px;
+    background: linear-gradient(to right, rgba(33, 33, 36, 0.619), rgba(33, 33, 36, 0.619)), 
+    url(../img/amelia.jpg);
+    background-position-x: center;
+    background-position-y: 660px;
+    background-size: cover;
+  }
+  
+  .representation__title {
+    font-family: Montserrat, sans-serif;
+    font-weight: 500;
+    font-size: 38px;
+    color: #FFFFFF;
+    text-align: center;
+    padding-top: 100px;
+  }
+  
+  .representation__subtitle {
+    font-family: NunitoSans, sans-serif;
+    font-size: 18px;
+    text-align: center;
+    color: #FFFFFF;
+    padding-top: 30px;
+    letter-spacing: 0.09px;
+    line-height: 28px;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  
+  /* Numbers */
+  
+  .numbers {
+    background-color: #10c9c3;
+    height: 240px;
+    margin: 0 auto;
+  }
+  
+  .numbers-list {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 100px;
+  }
+  
+  .numbers-list__item {
+    width: 212px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+  }
+  
+  .numbers-list__img {
+    display: block;
+  }
+  
+  .numbers-list__text {
+    width: 500px;
+    margin-left: 25px;
+  }
+  
+  .numbers-list__title {
+    font-family: Montserrat, sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    color: #ffffff;
+  }
+  
+  .numbers-list__subtitle {
+    font-family: Montserrat, sans-serif;
+    font-weight: 500;
+    font-size: 12px;
+    color: #ffffff;
+  }
+  
+  /* About me */
+  
+  .about__banner {
+    height: 570px;
+    background-image: url(../img/about.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position-x: -100px;
+    background-color: #F6F6F6;
+  }
+  
+  .about__info {
+    width: 400px;
+    margin-left: auto;
+    margin-right: 150px;
+    padding-top: 100px;
+  }
+    
+  .about__title {
+    font-family: Montserrat;
+    font-weight: 700;
+    font-size: 38px;
+    line-height: 48px;
+    align-items: center;
+    color: #1d1d1d;
+    margin-bottom: 30px;
+  }
+    
+  .about__subtitle {
+    font-family: NunitoSans, sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.08px;
+    color: #787878;
+    margin-top: 30px;
+  }
+  
+  .about__img {
+    margin-top: 25px;
+  }
+  
+  /* Project */
+  
+  .project {
+    height: 400px;
+  }
+    
+  .project__title {
+    font-family: Montserrat, sans-serif;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 84px;
+    text-align: center;
+    letter-spacing: 0.3px;
+    color: #1D1D1D;
+    padding-top: 80px;
+  }
+    
+  .project__subtitle {
+    font-family: NunitoSans, sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    letter-spacing: 0.08px;
+    color: #787878;
+  }
+    
+  .project__button {
+    font-family: Montserrat, sans-serif;
+    cursor: pointer;
+    width: 180px;
+    height: 54px;
+    border: 0;
+    background-color: #10c9c3;
+    font-weight: 500;
+    font-size: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #ffffff;
+    margin: 0 auto;
+    transition: 500ms;
+    margin-top: 30px;
+    letter-spacing: 1.2px;
+  }
+    
+  .project__button:hover {
+    background: #00837f;
+    transition: 500ms;
+    
+  }
+/*About*/
+
+/*footer*/
 .containerf {
     display: flex;
     justify-content: center;

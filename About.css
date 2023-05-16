@@ -29,6 +29,26 @@ menu {
         max-width: 1200px;
         margin: 0 auto;
   }
+  ::-webkit-scrollbar {
+    width: 7px;
+  }
+  
+  ::-webkit-scrollbar-track {
+    background-color: #000000;
+  }
+  
+  ::-webkit-scrollbar-track-piece {
+    background-color: #ffffff;
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background-color: #10c9c3;;
+    border-radius: 0px;
+  }
+  
+  ::-webkit-scrollbar-thumb:hover {
+    background-color: #00837f;
+  }
 
 /*header*/
 header {
@@ -67,7 +87,7 @@ header menu li {
 header a:hover{
 color: aqua;
 }
-
+zs
 header menu li:last-child {
     margin-right: 0;
 }
@@ -77,7 +97,7 @@ header menu li:last-child {
 .representation {
     height: 350px;
     background: linear-gradient(to right, rgba(33, 33, 36, 0.619), rgba(33, 33, 36, 0.619)), 
-    url(img/amelia.jpg);
+    url(../img/amelia.jpg);
     background-position-x: center;
     background-position-y: 660px;
     background-size: cover;
@@ -153,7 +173,7 @@ header menu li:last-child {
   
   .about__banner {
     height: 570px;
-    background-image: url(img/about.jpg);
+    background-image: url(../img/about.jpg);
     background-size: contain;
     background-repeat: no-repeat;
     background-position-x: -100px;

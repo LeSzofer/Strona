@@ -18,7 +18,7 @@ ul,
 menu {
   list-style: none;
 }
-  
+
 .container {
   max-width: 1200px;
   margin: 0 auto;
@@ -45,8 +45,8 @@ menu {
 ::-webkit-scrollbar-thumb:hover {
   background-color: #00837f;
 }
-  
-/* Header */  
+
+/* Header */
 
 header {
   width: 100%;
@@ -125,7 +125,7 @@ header menu li:last-child {
   padding-top: 20px;
 }
 
-.client, 
+.client,
 .date,
 .share {
   font-family: NunitoSans, sans-serif;
@@ -133,7 +133,7 @@ header menu li:last-child {
   line-height: 30px;
   letter-spacing: 0.08px;
   color: #787878;
-}  
+}
 
 .client {
   padding-top: 40px;

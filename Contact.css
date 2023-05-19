@@ -24,6 +24,7 @@ menu {
   margin: 0 auto;
   height: 100px;
 }
+
 .container1 {
   max-width: 1200px;
   margin: 0 auto;
@@ -99,6 +100,7 @@ header a:hover {
 header menu li:last-child {
   margin-right: 0;
 }
+
 /* Contact */
 
 .contact {
@@ -108,10 +110,10 @@ header menu li:last-child {
 
 .contact__block {
   width: 369px;
-  height: 306px;  
+  height: 306px;
   display: flex;
   justify-content: space-between;
-  width: 100%; 
+  width: 100%;
 }
 
 .contact-info {
@@ -145,7 +147,8 @@ header menu li:last-child {
 }
 
 .contact-info__link:hover {
-  color: #141414;;
+  color: #141414;
+  ;
 }
 
 .bold {
@@ -154,7 +157,7 @@ header menu li:last-child {
 }
 
 .address,
-.phone, 
+.phone,
 .email,
 .fax {
   line-height: 36px;
@@ -163,6 +166,7 @@ header menu li:last-child {
 .address {
   margin-top: 20px;
 }
+
 .contact-form {
   width: 671px;
   height: 410px;
@@ -171,7 +175,7 @@ header menu li:last-child {
 
 .contact-form__input {
   width: 320px;
-  height: 48px; 
+  height: 48px;
   border: 0;
   padding-left: 15px;
   outline: none;

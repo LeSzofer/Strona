@@ -28,12 +28,13 @@ a:hover {
   margin: 0 auto;
 }
 
-.container1{
+.container1 {
   display: flex;
   flex-wrap: wrap;
   max-width: 1200px;
   margin: 0 auto;
 }
+
 /* Scroll Bar */
 
 ::-webkit-scrollbar {
@@ -206,14 +207,14 @@ a:hover {
   background-image: url(../img/skillsimg.png);
   background-repeat: no-repeat;
   background-position: right;
-  
-  
+
+
 }
 
 .skills__block {
   padding-top: 50px;
-  
-  
+
+
 }
 
 .skills__title {
@@ -526,7 +527,7 @@ a:hover {
 
 .contact-form__input {
   width: 320px;
-  height: 48px; 
+  height: 48px;
   border: 0;
   padding-left: 15px;
   outline: none;
